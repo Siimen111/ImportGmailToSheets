@@ -1,7 +1,7 @@
 function extractEmailData() {
     // Open the spreadsheet
     const sheet = SpreadsheetApp.getActiveSpreadsheet();
-    const sheetData = sheet.getSheetByName('MailData');
+    const sheetData = sheet.getSheetByName('Insert Sheet Name here');
 
     //Get Todays Date
     var todayDate = new Date();
